@@ -9,3 +9,23 @@
   border: 5px solid #555;
   
 }
+
+img {
+  border: 1px solid;
+  border-radius:4px;
+  padding: 5px;
+  width: 150 px;
+  max-width: 100%;
+  height:auto;
+
+
+}
+
+.Inputs{
+  display:flex;
+  justify-content: flex-start;
+  border-radius: 10px;
+}
+
+/* maybe you can also add sizing restrictions for images
+/* how can we make sure rows match up with image
