@@ -3,6 +3,14 @@
   justify-content: space-around;
 }
 
+
+.Inputs{
+  margin: 0 auto 20px auto;
+  display:flex;
+  justify-content: space-between; 
+  
+}
+
 .column{
   width: 18%;
   font-size: 20px;
@@ -10,17 +18,53 @@
   
 }
 
+
 img {
-  border: 1px solid;
+ /* border: 1px solid;
   border-radius:4px;
   padding: 5px;
-  width: 150 px;
+  width: 100 px;
   max-width: 100%;
-  height:auto;
-
+  height:100px;*/
+display: block;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+  
 
 }
 
+#songs p {
+ font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px; 
+  
+}
+
+#artist p {
+ font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px; 
+  
+}
+
+#length p {
+ font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px; 
+  
+}
+
+#link p {
+ font-size: 18px;
+    height: 100px;
+    font-weight: bold;
+    margin: 20px; 
+  
+}
 .Inputs{
   display:flex;
   justify-content: flex-start;
